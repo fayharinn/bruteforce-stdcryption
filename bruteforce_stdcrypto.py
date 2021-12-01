@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+# Converted from python 2.7 to Python 3.7+ by Younes B. (fayhe.fr)
 # Authors: Thomas Cannon <tcannon@viaforensics.com>
 # 		   Seyton Bradford <sbradford@viaforensics.com>
 # TAGS: Android, Device, Decryption, Crespo, Bruteforce
@@ -9,15 +9,7 @@
 # Bruteforces the pin number using the header from the encrypted partition 
 # Written for Nexus S (crespo) running Android 4.0.4
 # Footer is located in file userdata_footer on the efs partition
-#
-# --
-# Revision 0.3 (shipped with Santoku Alpha 0.3)
-# ------------
-# Added support for more than 4-digit PINs
-# Speed improvements
-# ------------
-# 2014/5/14 Added 4.4 support (scrypt, etc.) [Nikolay Elenkov]
-# -- 
+
 
 from os import path
 import sys, itertools
